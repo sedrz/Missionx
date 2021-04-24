@@ -47,10 +47,7 @@
     margin: 0px 400px ;
     padding: 0px;
  }
- .bottons:hover {
-  background-color: #a1b0e0; 
-  color: white;
- }
+ 
  .button {
   display: flex;
   flex-direction: row;
@@ -61,7 +58,11 @@
   font-size: 12px;
   padding: 0px;
  }
-
+ .button:hover {
+  background-color: #d65d67;  
+  color: white;
+  font-style: bold;
+ }
 .show {
   font-size: 12px;
   padding: 7px;
@@ -83,10 +84,15 @@
   justify-content: flex-end;
   place-self: center;
   justify-self: center;
-  
+}
+.number:hover {
+  background-color: #d65d67; 
+  color: white;
+  font-style: bold;
+} 
 
  
-}
+
 
 .endButtons {
  display: flex;
@@ -109,6 +115,11 @@
   font-weight: bold;
   border-radius: 10%;
 }
+.TopButton:hover {
+  background-color:  rgb(236, 218, 117);
+  color: white;
+ font-style: italic;
+}
 .Dashboard {
   display: flex;
   flex-direction: flex-end;
@@ -118,6 +129,11 @@
   font-weight: bold;
   border-radius: 10%;
   margin:0px 100px 0px;
+}
+.Dashboard:hover {
+  background-color:  rgb(235, 140, 148);
+  color: white;
+  font-style: italic;
 }
 .p1 {
   display: flex;
