@@ -3,16 +3,12 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NavBar from "./Components/NavBar/NavBar";
 import SideCheckbox from "./pages/Projects/Components/SideCheckbox";
 import Navbar from './Components/Navbar';
-
 import Projects from "./pages/Projects/Projects";
 import Footer from './Components/Footer';
-
-
-import "./App.css";
-
 import Logo2 from "./assets/logo2.png";
 import NZFlag from "./assets/NZFlag.jpg";
 import MaoriFlag from "./assets/MaoriFlag.jpg";
+import "./App.css";
 
 function App() {
   return (
