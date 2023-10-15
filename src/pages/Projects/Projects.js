@@ -1,7 +1,4 @@
 import React from "react";
-
-import "./Projects.css";
-
 import Project01 from "../../assets/projects/Project01.jpg";
 import Project02 from "../../assets/projects/Project02.jpg";
 import Project03 from "../../assets/projects/Project03.jpg";
@@ -17,6 +14,7 @@ import Project12 from "../../assets/projects/Project12.jpg";
 import Project13 from "../../assets/projects/Project13.jpg";
 import Project14 from "../../assets/projects/Project14.jpg";
 import Project15 from "../../assets/projects/Project15.jpg";
+import "./Projects.css";
 
 const Projects = () => {
   // 
