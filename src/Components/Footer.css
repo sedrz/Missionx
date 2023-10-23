@@ -31,16 +31,8 @@ margin: 0 auto;
 .content-a li {
     list-style-type: none;
     text-align: left;
-}
-.content-b li {
+
+.content-b .content-c .content-d .content-e li {
     list-style-type: none;
 }
-.content-c li {
-    list-style-type: none;
-}
-.content-d li {
-    list-style-type: none;
-}
-.content-e li {
-list-style-type: none;
-}
+
