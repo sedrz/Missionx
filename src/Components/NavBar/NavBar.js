@@ -9,8 +9,7 @@ import './NavBar.css';
          <li><a href="Teachers.js">TEACHERS </a> </li>
            
           </ul>
-        
-    );
+     );
 };
 
 export default NavBar;
