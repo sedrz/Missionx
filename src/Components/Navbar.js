@@ -37,9 +37,6 @@ function Navbar() {
               <img src={register} alt="register" />
         
         </div>
-
-
-
         </div>
       </div>
     </div>
